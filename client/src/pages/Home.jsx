@@ -4,6 +4,7 @@ import SearchBar from "../components/SearchBar";
 import ImageCard from "../components/ImageCard";
 import { GetPosts } from "../api";
 import { CircularProgress } from "@mui/material";
+import Footer from "../Footer";
 const Container = styled.div`
   // height: 100%;
   overflow-y: scroll;
@@ -70,8 +71,7 @@ const CardWrapper = styled.div`
     grid-template-columns: repeat(4, 1fr);
 
   }
-`
-
+`;
 
 const Home = () => {
   const [posts, setPosts] = useState([]);
@@ -145,6 +145,8 @@ const Home = () => {
           </CardWrapper>
         )}
       </Wrapper>
+
+      <Footer/>
     </Container>
   );
 };
