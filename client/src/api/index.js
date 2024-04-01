@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL : "https://genai-image-generator-mern.onrender.com",
+    baseURL : "https://genai-image-generator-mern.onrender.com/api",
 
 })
 

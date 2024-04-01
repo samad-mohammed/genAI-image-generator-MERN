@@ -24,7 +24,7 @@ const Wrapper = styled.div`
   gap: 8%;
   display: flex;
   justify-content: center;
-padding-top:15px;
+padding-top:20px;
   @media (min-width: 769px) and (max-width: 1050px) {
     padding-top: 140px;
   }
@@ -43,8 +43,7 @@ const HeadLine = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top:20px;
-  // padding-bottom:20px;
+
   margin-top: 20px;
   // margin-bottom : 5px;
   @media (max-width: 600px) {
