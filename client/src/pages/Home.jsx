@@ -7,7 +7,7 @@ import { CircularProgress } from "@mui/material";
 const Container = styled.div`
   // height: 100%;
   overflow-y: scroll;
-  
+  flex:1;
   background: ${({ theme }) => theme.bg};
   padding: 30px 30px;
   padding-bottom: 50px;

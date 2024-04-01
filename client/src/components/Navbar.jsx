@@ -5,7 +5,7 @@ import { AddRounded, ExploreRounded } from "@mui/icons-material";
 import { useNavigate, useLocation } from "react-router-dom";
 
 const Container = styled.div`
-  flex: 1;
+  // flex: 1;
   background: ${({ theme }) => theme.navbar};
   color: ${({ theme }) => theme.text_primary};
   font-weight: bold;
