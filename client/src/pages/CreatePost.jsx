@@ -24,7 +24,7 @@ const Wrapper = styled.div`
   gap: 8%;
   display: flex;
   justify-content: center;
-
+padding-top:15px;
   @media (min-width: 769px) and (max-width: 1050px) {
     padding-top: 140px;
   }
@@ -33,6 +33,28 @@ const Wrapper = styled.div`
     height: fit-content;
     padding-top: 450px;
   }
+`;
+
+
+const HeadLine = styled.div`
+  font-size: 34px;
+  font-weight: 500;
+  color: ${({ theme }) => theme.text_primary};
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:20px;
+  // padding-bottom:20px;
+  margin-top: 20px;
+  // margin-bottom : 5px;
+  @media (max-width: 600px) {
+    font-size: 22px;
+  }
+`;
+const Span = styled.div`
+  font-size: 30px;
+  font-weight: 500;
+  color: ${({ theme }) => theme.text_secondary};
 `;
 
 const CreatePost = () => {
@@ -57,6 +79,11 @@ const CreatePost = () => {
 
   return (
     <Container>
+        <HeadLine>
+
+    Free tier has been Expired!
+    <Span>⦾ Check the posts generated with AI in the explore section ⦾</Span>
+        </HeadLine>
       <Wrapper>
         <GenerateImageForm
           post={post}
@@ -66,7 +93,7 @@ const CreatePost = () => {
           createPostLoading={createPostLoading}
           setCreatePostLoading={setCreatePostLoading}
           handleGenerateImage={handleGenerateImage} // Pass the handleGenerateImage function to GenerateImageForm
-        />
+          />
         <GenerateImageCard src={post.photo} loading={generateImageLoading} />
       </Wrapper>
     </Container>

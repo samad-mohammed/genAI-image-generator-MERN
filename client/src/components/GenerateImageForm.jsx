@@ -26,7 +26,7 @@ const Top = styled.div`
 const Title = styled.div`
   font-size: 28px;
   font-weight: 500;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.secondary};
 `;
 
 const Desc = styled.div`
