@@ -21,6 +21,10 @@ The Image Generator Gen AI web application is deployed and accessible at [https:
 - **Image Generation**: OpenAI
 - **Cloud Storage**: Cloudify
 
+## Working
+
+![image](https://github.com/samad-mohammed/genAI-image-generator-MERN/assets/129748059/28ec2def-9608-4786-b491-66b8604292dc)
+
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
