@@ -25,8 +25,10 @@ The Image Generator Gen AI web application is deployed and accessible at [https:
 
 ![image](https://github.com/samad-mohammed/genAI-image-generator-MERN/assets/129748059/28ec2def-9608-4786-b491-66b8604292dc)
 
-  **Result** : <img src="https://github.com/samad-mohammed/genAI-image-generator-MERN/assets/129748059/7f9b455f-b73e-45c2-9a4b-ced68b4e04d7" alt="result image" width="400" height="300">
-
+<div style="text-align:center">
+  <p><strong>Result:</strong></p>
+  <img src="https://github.com/samad-mohammed/genAI-image-generator-MERN/assets/129748059/7f9b455f-b73e-45c2-9a4b-ced68b4e04d7" alt="result image" width="400" height="300">
+</div>
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
